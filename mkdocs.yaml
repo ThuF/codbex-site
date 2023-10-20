@@ -1,0 +1,49 @@
+site_name: Platform
+site_url: https://www.codbex.com/
+
+theme:
+  name: material
+  favicon: img/favicon.png
+  logo: img/logo.svg
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/lightbulb 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+
+extra_css:
+  - stylesheets/custom.css
+  - stylesheets/homepage.css
+  - stylesheets/extra.css
+
+extra:
+  homepage: https://www.codbex.com/
+  analytics:
+    provider: google
+    property: G-QWPZ5B9RH8
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/codbex/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/codbex/
+    - icon: fontawesome/brands/github
+      link: https://github.com/codbex/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCbxnGOhmcDvBIrafDeyCU7Q/videos/
+    - icon: fontawesome/brands/slack
+      link: https://slack.dirigible.io
