@@ -1,6 +1,24 @@
 site_name: Platform
 site_url: https://www.codbex.com/
 
+nav:
+  - Home: 'index.md'
+  - Products:
+    - 'products/index.md'
+    - Atlas: 'products/atlas.md'
+    - Helios: 'products/helios.md'
+    - Hades: 'products/hades.md'
+    - Oceanus: 'products/oceanus.md'
+    - Theia: 'products/theia.md'
+    - Hyperion: 'products/hyperion.md'
+    - Iapetus: 'products/iapetus.md'
+    - Kronos: 'products/kronos.md'
+    - Gaia: 'products/gaia.md'
+  - Pricing: 'pricing/index.md'
+  - News: 'news/index.md'
+  - About: 'about/index.md'
+  - Contact: 'contact/index.md'
+
 theme:
   name: material
   favicon: img/favicon.png
@@ -30,6 +48,24 @@ extra_css:
   - stylesheets/custom.css
   - stylesheets/homepage.css
   - stylesheets/extra.css
+
+markdown_extensions:
+    - attr_list
+    - pymdownx.snippets
+    - pymdownx.highlight:
+        linenums: false
+    - pymdownx.keys
+    - pymdownx.inlinehilite
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.emoji
+    - meta
+    - footnotes
+    - admonition
+    - pymdownx.details
+
+copyright: Copyright © 2023 codbex ltd
 
 extra:
   homepage: https://www.codbex.com/
