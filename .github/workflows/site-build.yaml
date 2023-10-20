@@ -1,4 +1,4 @@
-name: ci 
+name: Site Build 
 on:
   push:
     branches:
