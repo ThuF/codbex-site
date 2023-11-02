@@ -24,14 +24,14 @@ theme:
   favicon: img/favicon.png
   logo: img/logo.svg
   palette: 
-    - scheme: default
-      toggle:
-        icon: material/lightbulb 
-        name: Switch to dark mode
     - scheme: slate
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
   custom_dir: overrides
   features:
     - navigation.instant
